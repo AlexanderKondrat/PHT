@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Other>
+  <URL>https://www.mail.ru</URL>
+  <topic>Test send message</topic>
+  <recepietes>
+  <recepiete id='1'>sasha1911@bk.ru</recepiete>
+  <recepiete id='2'>testuser@bk.ru</recepiete>
+  </recepietes>
+  <text>Hello, it is test message</text>
+</Other>
