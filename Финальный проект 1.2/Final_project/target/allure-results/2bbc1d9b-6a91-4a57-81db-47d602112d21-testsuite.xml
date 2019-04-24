@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556132326427" stop="1556132394104" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test mail (negative)</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1556132326429" stop="1556132362996" status="passed">
+            <name>Enter to account (not correct)</name>
+            <title>Enter to account (not correct)</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556132326430" stop="1556132357148" status="passed">
+                    <name>Given I am on a page</name>
+                    <title>Given I am on a page</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132326445" stop="1556132357148" status="passed">
+                            <name>openBrowserAndURL</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132357149" stop="1556132357435" status="passed">
+                    <name>Then I see the enter button</name>
+                    <title>Then I see the enter button</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132357151" stop="1556132357434" status="passed">
+                            <name>enterbutton</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132357435" stop="1556132361457" status="passed">
+                    <name>When I input not correct login and password</name>
+                    <title>When I input not correct login and password</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132357444" stop="1556132361456" status="passed">
+                            <name>enterToAccountPageNC</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132361457" stop="1556132362264" status="passed">
+                    <name>Then I see a error</name>
+                    <title>Then I see a error</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132361462" stop="1556132362264" status="passed">
+                            <name>enterError</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132362265" stop="1556132362996" status="passed">
+                    <name>And I exit</name>
+                    <title>And I exit</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132362274" stop="1556132362996" status="passed">
+                            <name>exit</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Enter to account (not correct)"/>
+                <label name="feature" value="Test mail (negative)"/>
+                <label name="host" value="Alexander-ПК"/>
+                <label name="thread" value="5516@Alexander-ПК.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1556132362999" stop="1556132394104" status="passed">
+            <name>Send message</name>
+            <title>Send message</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1556132363000" stop="1556132369668" status="passed">
+                    <name>Given I am on a page</name>
+                    <title>Given I am on a page</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132363001" stop="1556132369667" status="passed">
+                            <name>openBrowserAndURL</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132369668" stop="1556132369814" status="passed">
+                    <name>Then I see the enter button</name>
+                    <title>Then I see the enter button</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132369670" stop="1556132369813" status="passed">
+                            <name>enterbutton</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132369814" stop="1556132370618" status="passed">
+                    <name>When I input login and password</name>
+                    <title>When I input login and password</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132369816" stop="1556132370616" status="passed">
+                            <name>enterToAccountPage</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132370618" stop="1556132388448" status="passed">
+                    <name>Then I enter to account</name>
+                    <title>Then I enter to account</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132370623" stop="1556132388447" status="passed">
+                            <name>enterSuccessfully</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132388450" stop="1556132393062" status="passed">
+                    <name>When I send not correct message</name>
+                    <title>When I send not correct message</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132388455" stop="1556132393061" status="passed">
+                            <name>sendMessageCorrectPagePlus</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132393063" stop="1556132393269" status="passed">
+                    <name>Then I see message doesn't sent</name>
+                    <title>Then I see message doesn't sent</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132393064" stop="1556132393268" status="passed">
+                            <name>sentMessageErrorPlus</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1556132393269" stop="1556132394104" status="passed">
+                    <name>And I exit</name>
+                    <title>And I exit</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1556132393277" stop="1556132394103" status="passed">
+                            <name>exit</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Send message"/>
+                <label name="feature" value="Test mail (negative)"/>
+                <label name="host" value="Alexander-ПК"/>
+                <label name="thread" value="5516@Alexander-ПК.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test mail (negative)"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
